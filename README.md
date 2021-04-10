@@ -9,7 +9,10 @@ The aim of this template is to be able to start on **Client-side** only website 
 - Editor - VSCode with format on save by [Prettier](https://prettier.io/) + fix all with [Eslint](https://eslint.org/).
 - Suggested Node version 14.
 - Git hook integrated with [Husky](https://typicode.github.io/husky).
-- Use [Commitlint](https://commitlint.js.org/) for consistent commit messages.
+- Pre-commit #1: Uses [Commitlint](https://commitlint.js.org/) for consistent commit messages.
+- Pre-commit #2: Uses [Lint Staged](https://github.com/okonet/lint-staged) to run `eslint --fix` and `prettier --write`.
+- Pre-push #1: Runs `tsc --noEmit` to detect error and type checking.
+- Pre-push #2: Runs `jest` to check unit tests and code overage.
 
 ## Available Scripts
 
