@@ -1,6 +1,6 @@
 {
   "name": "cra-ts-template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "engines": {
     "node": "14.x.x"
@@ -43,7 +43,7 @@
     "build": "craco build",
     "test": "craco test",
     "test:ci": "npm test -- --coverage --ci --watchAll=false",
-    "test:staged": "npm test -- --ci --watchAll=false",
+    "test:staged": "npm test -- --passWithNoTests --ci --watchAll=false",
     "eject": "react-scripts eject",
     "prettier": "prettier --write",
     "tsc": "tsc --noEmit",
