@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index should match snapshot 1`] = `
+<body>
+  <div
+    id="root"
+  />
+</body>
+`;

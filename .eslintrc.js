@@ -8,8 +8,10 @@ module.exports = {
     'unicorn',
   ],
   extends: [
+    'eslint:recommended',
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:jest/recommended',
     'plugin:testing-library/react',
     'plugin:react/recommended',
@@ -40,6 +42,8 @@ module.exports = {
     {
       files: ['*.js'],
       rules: {
+        '@typescript-eslint/no-unsafe-assignment': 'off',
+        '@typescript-eslint/no-unsafe-call': 'off',
         '@typescript-eslint/no-var-requires': 'off',
       },
     },
