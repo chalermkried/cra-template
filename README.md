@@ -4,6 +4,7 @@ The aim of this template is to be able to start on **Client-side** only website 
 
 ## Template Structure
 
+- [Volta](https://docs.volta.sh/guide/) is supported and recommended for Node version management.
 - Bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And the built app powered by [Preact](https://preactjs.com/) with help of [CRACO](https://github.com/gsoft-inc/craco).
 - Linting configuration based on [Create Exposed App](https://github.com/iamturns/create-exposed-app).
 - Editor - VSCode with format on save by [Prettier](https://prettier.io/) + fix all with [Eslint](https://eslint.org/).
